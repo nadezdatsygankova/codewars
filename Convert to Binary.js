@@ -17,3 +17,8 @@ function toBinary(n){
      n = Number(s);
   return n;
 }
+
+
+// another answer
+
+toBinary = (n) => parseInt(n.toString(2));
